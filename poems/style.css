@@ -1,0 +1,167 @@
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    line-height: 20px;
+    padding: 20px;
+    padding-right: 500px;
+    padding-left: 500px;
+    size: 40px;
+}
+
+input:hover {
+    background-color: rgb(127, 202, 231);
+}
+
+button {
+    color: rgb(13, 87, 87);
+}
+
+.color:hover {
+    background-color: rgb(127, 202, 231);
+}
+
+.color:focus {
+    background-color: rgb(12, 144, 10);
+
+}
+
+input:focus {
+    background-color: rgb(236, 165, 137);
+}
+
+.class {
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inspiration', cursive;
+    font-size: 30px;
+    color: orange;
+    text-shadow: 4px 4px 4px black;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 50, 53);
+}
+
+a:focus {
+    background-color: rgb(12, 144, 10);
+}
+
+
+.nav{
+float: right;
+max-width: 1100px;
+margin: auto;
+width: 100%;
+margin-top: 20px;
+
+}
+
+ul {
+list-style-type: none;
+margin-top: 20px;
+}
+
+ul li {
+display: inline-block;
+}
+
+ul li a {
+
+text-decoration: none;
+color: rgb(78, 96, 179);
+padding: 5px 20px;
+border: 1px solid transparent;
+}
+
+ul li a:hover {
+background-color: rgb(245, 150, 194);
+}
+.logo img {
+    float: left;
+    height: auto;
+    width: 50px;
+}
+.side{
+    /* justify-content:right; */
+    margin-left: 500px;
+}
+.contact{
+    line-height: 100px;
+    margin-right: 300px;
+}
+
+
+.button:focus{
+     background-color: green;
+    
+}
+.images{
+    margin: 1px;
+    justify-content: center;
+    padding: 50px;
+    justify-items: center;
+
+}
+.stories{
+    margin: 1px;
+    justify-content: center;
+    padding: 50px;
+    justify-items: center;
+
+}
+.main-text{
+    max-width: 500px;
+}
+.main-text span{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e74444;
+    letter-spacing: 2px;
+}
+.main-text h1{
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 45px;
+}.main-text p{
+  color: #747474;
+  margin: 20px 0px;
+}
+.main-text a{
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.14);
+  color: #f8f8f8;
+  background-color: #e74444;
+}
+.main-img{
+  height: 500;
+  width: 1100;
+}
+#main{
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
